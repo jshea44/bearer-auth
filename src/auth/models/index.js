@@ -17,7 +17,7 @@ const DATABASE_CONFIG =
           },
         },
       }
-    : {};
+    : { logging: false };
 
 const sequelize = new Sequelize(DATABASE_URL, DATABASE_CONFIG);
 
